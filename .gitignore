@@ -1,0 +1,35 @@
+# IDEs / editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datos descargados / cache de sklearn
+scikit_learn_data/
+*.cache
+
+# Variables de entorno
+.env
+.env.local
