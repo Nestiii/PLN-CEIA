@@ -30,6 +30,12 @@ ENV/
 scikit_learn_data/
 *.cache
 
+# Dataset de canciones (se descarga al correr la notebook del Desafío 2)
+songs_dataset/
+songs_dataset.zip
+vectors.tsv
+labels.tsv
+
 # Variables de entorno
 .env
 .env.local
