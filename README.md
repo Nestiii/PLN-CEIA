@@ -9,6 +9,7 @@ Acá voy a ir resolviendo y subiendo los desafíos de la cursada. Cada desafío 
 - `desafio_1/` — Vectorización de texto (TF-IDF), similaridad de documentos, clasificación zero-shot por prototipos y Naïve Bayes sobre el dataset **20 Newsgroups**.
 - `desafio_2/` — Custom word embeddings con **Gensim/Word2Vec** sobre las letras de **Bob Dylan**: términos más y menos similares, reducción a 2D con t-SNE y análisis de los grupos de palabras que se forman.
 - `desafio_3/` — **Modelo de lenguaje a nivel de caracteres** con redes recurrentes (**SimpleRNN / LSTM / GRU**) sobre *La vuelta al mundo en 80 días* (Julio Verne). Entrenamiento guiado por **perplejidad** (con early stopping) y **generación de texto** con greedy search, beam search (determinístico y estocástico) y barrido de **temperatura**.
+- `desafio_4/` — **Traductor neuronal seq2seq** (encoder-decoder LSTM) inglés→español sobre el dataset **spa-eng** (Anki). Comparación del **número de unidades** recurrentes (128/256/512), métrica **BLEU**, y generación con greedy, **beam search** y muestreo con **temperatura**. Incluye un **modelo mejorado con encoder bidireccional + atención** que triplica el BLEU (2.88 → 9.80) y produce traducciones fieles.
 
 ## Stack
 

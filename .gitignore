@@ -40,6 +40,10 @@ labels.tsv
 *.keras
 desafio_3/corpus_verne.txt
 
+# Desafío 4: dataset de traducción (se descarga al correr la notebook)
+desafio_4/spa-eng/
+desafio_4/spa-eng.zip
+
 # Variables de entorno
 .env
 .env.local
