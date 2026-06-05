@@ -36,6 +36,10 @@ songs_dataset.zip
 vectors.tsv
 labels.tsv
 
+# Desafío 3: modelos entrenados y corpus cacheado (se regeneran al correr la notebook)
+*.keras
+desafio_3/corpus_verne.txt
+
 # Variables de entorno
 .env
 .env.local
